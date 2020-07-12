@@ -1,4 +1,4 @@
-# color-coded
+# color-coded 
 
 - No UI: Translate health and inventory into visual indicators
 
