@@ -35,7 +35,8 @@ Title-in-Progress uses the following software
 - Maya
  
 #### Music and Sound
-- 
+- The Hollywood Edge
+- Sound Ideas
  
 ### Developers
 
