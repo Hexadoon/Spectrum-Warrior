@@ -44,8 +44,8 @@ Project Managers
 - Emily Schield
 
 Software Developers
-- Akash
-- Sujay
+- Akash Pathuri
+- Sujay Sayini
 
 Artists
 - Sophia Ferrera
