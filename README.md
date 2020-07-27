@@ -1,7 +1,3 @@
-# color-coded 
-
-- No UI: Translate health and inventory into visual indicators
-
 # Title-in-Progress
 An open-world action/adventure game developed with Unity3D
 
@@ -35,8 +31,7 @@ Title-in-Progress uses the following software
 - Maya
  
 #### Music and Sound
-- The Hollywood Edge
-- Sound Ideas
+
  
 ### Developers
 
