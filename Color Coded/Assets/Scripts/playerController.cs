@@ -24,15 +24,22 @@ public class playerController : MonoBehaviour{
 
     void Update(){
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) )
         {
-            initial = Time.time;
+            
+             initial = Time.time;
+            
         }
         if (Input.GetMouseButtonUp(0))
         {
             float change = Time.time - initial;
             Debug.Log(change);
-            if (change > 1f)
+            if(change > 2f)
+            {
+                animationController.SetTrigger("combo");
+
+            }
+            else if (change > 1f)
             {
                 animationController.SetTrigger("attack");
                 //transform.Translate(Vector3.forward * 5f);
