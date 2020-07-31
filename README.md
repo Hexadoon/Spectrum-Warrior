@@ -14,7 +14,7 @@ A full spectrum is only complete with all the colors. Why is each individual col
 - Keyboard and Mouse/trackpad inputs only
 
 ### How To Install
-In the "dist" folder select the appropriate file for your system.
+In the "dist" folder select the appropriate zip file for your system.
 
 ### Controls
 WASD - Movement
