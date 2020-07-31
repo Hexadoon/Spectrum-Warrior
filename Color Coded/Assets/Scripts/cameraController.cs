@@ -13,11 +13,16 @@ public class cameraController : MonoBehaviour{
     public float currentX = 190f;
     public float currentY = -15.0f;
     public Transform body;
+    bool mouse = true;
 
 
     private void Update(){
-        currentX += Input.GetAxis("Mouse X");
-        currentY += Input.GetAxis("Mouse Y");
+        Cursor.lockState = CursorLockMode.Locked;
+        if (mouse)
+        {
+            currentX += Input.GetAxis("Mouse X");
+            currentY += Input.GetAxis("Mouse Y");
+        }
         
         currentY = Mathf.Clamp(currentY, min, max);
     }
@@ -32,6 +37,17 @@ public class cameraController : MonoBehaviour{
 
         Quaternion torque = Quaternion.Euler(0, currentX, 0);
         body.rotation = torque;
+
+        if (Input.GetKeyDown("escape"))
+        {
+            mouse = false;
+            Cursor.lockState = CursorLockMode.None;
+        }
+        if (Input.GetButtonDown("Fire1"))
+        {
+            mouse = true;
+            Cursor.lockState = CursorLockMode.Locked;
+        }
 
     }
 }
