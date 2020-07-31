@@ -72,6 +72,10 @@ public class playerCombat : MonoBehaviour {
         if(!reloading && Input.GetKeyDown("e")) {
             charmColor = regenTimer;
             animationController.SetTrigger("heal");
+            r = 0f;
+            g = 1f;
+            healthStatus.SetVector("_Color", new Vector4(r, g, 0f));
+            healthStatus.SetVector("_EmissionColor", new Vector4(r, g, 0f));
             charm.SetVector("_Color", new Vector4(1f, charmColor / regenTimer, 1f));
             charm.SetVector("_EmissionColor", new Vector4(1f, charmColor / regenTimer, 1f));
             playerHealth = 80f;

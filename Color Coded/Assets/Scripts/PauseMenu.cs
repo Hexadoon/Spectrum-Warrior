@@ -40,7 +40,7 @@ public class PauseMenu : MonoBehaviour
     public void Restart() {
       Debug.Log("Restarting game...");
       // create variables for loading current scene
-      SceneManager.LoadScene("Demo");
+      SceneManager.LoadScene("StartingBase");
       Time.timeScale = 1f;
     }
 
