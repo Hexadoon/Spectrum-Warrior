@@ -18,10 +18,15 @@ In the "dist" folder select the appropriate download links for your system.
 
 ### Controls
 WASD - Movement
+
 Left Mouse Button - Attack
+
 Right Mouse Button - block
+
 Space - Jump
+
 E - Heal
+
 esc - Menu
 
 ### How to Contribute
