@@ -16,6 +16,19 @@ A full spectrum is only complete with all the colors. Why is each individual col
 ### How To Install
 In the "dist" folder select the appropriate download links for your system.
 
+### Controls
+WASD - Movement
+
+Left Mouse Button - Attack
+
+Right Mouse Button - block
+
+Space - Jump
+
+E - Heal
+
+esc - Menu
+
 ### How to Contribute
 #### Submitting Issues
 Before submitting an issue please check to make sure that there is no similar open issue. Please use the appropriate [template](https://github.com/Hexadoon/color-coded/issues/new/choose) when submitting an issue.
