@@ -3,6 +3,10 @@ An open-world action/adventure game developed with Unity3D
 
 A full spectrum is only complete with all the colors. Why is each individual color so chaotic? You must journey through all of them in order to understand the difficulties that plague us all. Each area presents it's own challenges, strengths, and unique attributes. It falls to you to unite the divided spectrum one color at a time.
 
+![Screenshot 2020-07-31 at 10 48 05 AM](https://user-images.githubusercontent.com/56122178/89062609-c4b24900-d334-11ea-884d-31d75425b25d.png)
+
+![Screenshot 2020-07-31 at 10 47 59 AM](https://user-images.githubusercontent.com/56122178/89062614-c5e37600-d334-11ea-91aa-c30781b880eb.png)
+
 
 ### Specifications
 - Run on Windows, and Mac OSX
