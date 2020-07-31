@@ -17,7 +17,7 @@ public class cameraController : MonoBehaviour{
 
 
     private void Update(){
-        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.Confined;
         if (mouse)
         {
             currentX += Input.GetAxis("Mouse X");
@@ -46,7 +46,7 @@ public class cameraController : MonoBehaviour{
         if (Input.GetButtonDown("Fire1"))
         {
             mouse = true;
-            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.lockState = CursorLockMode.Confined;
         }
 
     }
